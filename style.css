@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    padding: 100px 300px;
+
+}
+
+.main {
+    width: 1440px;
+    height: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    font-size: 40px;
+    color: hsl(24, 5%, 18%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 20px 0;
+    line-height: 40px;
+}
+p{
+    font-size: 16px;
+    line-height: 25px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0 30px 0;
+}
+h5{
+    font-size: 20px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+li{
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    line-height: 25px;
+}
+span{
+    font-weight: bold;
+}
+.ingredients{
+    margin: 20px 0;
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    margin: 15px 0;
+    font-size: 30px;
+}
+hr{
+    height: 1px;
+    color: hsl(0, 0%, 0%);
+    background: hsl(0, 0%, 94%);
+    font-size: 0;
+    border: 0;
+    margin: 20px 0;
+}
+table{
+    font-family: "Outfit", sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    text-align: left;
+
+}
+.nob{
+    border: none;
+}
+td{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    border-bottom: 1px solid hsl(0, 0%, 94%);
+    padding: 10px 0 10px 25px;
+}
+th{
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+    border-bottom: 1px solid hsl(0, 0%, 94%);
+    padding: 10px 0 10px 25px;
+}
+ul,ol{
+    padding-left: 25px;
+}
+ul li, ol li {
+    padding-left: 20px;
+}
+ul li::marker, ol li::marker {
+    color: hsl(14, 45%, 36%);
+}
+ol li::marker {
+    font-weight: 700;
+}
+.prep ul li::marker{
+    color: hsl(332, 51%, 32%);;
+}
